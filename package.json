@@ -1,0 +1,110 @@
+{
+  "name": "to-typescript",
+  "displayName": "toTypeScript()",
+  "description": "Converts JavaScript and CoffeeScript to TypeScript",
+  "author": "Alec Clarke",
+  "publisher": "alecclarkedev",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "icon": "images/icon.png",
+  "homepage": "https://github.com/alecclarke/to-typescript",
+  "bugs": {
+    "url": "https://github.com/alecclarke/to-typescript/issues"
+  },
+  "repository": {
+    "url": "https://github.com/alecclarke/to-typescript"
+  },
+  "categories": [
+    "Programming Languages",
+    "Formatters",
+    "Other"
+  ],
+  "keywords": [
+    "typescript",
+    "coffeescript",
+    "javascript",
+    "code fix",
+    "code refactor"
+  ],
+  "activationEvents": [
+    "onCommand:extension.toTypeScript"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.toTypeScript",
+        "title": "toTypeScript()"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "toTypeScript configuration",
+      "properties": {
+        "toTypeScript.inferFromUsage": {
+          "type": "boolean",
+          "default": true,
+          "description": ""
+        },
+        "toTypeScript.convertToAsyncFunction": {
+          "type": "boolean",
+          "default": true,
+          "description": ""
+        },
+        "toTypeScript.addMissingMember": {
+          "type": "boolean",
+          "default": true,
+          "description": ""
+        },
+        "toTypeScript.forgottenThisPropertyAccess": {
+          "type": "boolean",
+          "default": true,
+          "description": ""
+        },
+        "toTypeScript.fixAwaitInSyncFunction": {
+          "type": "boolean",
+          "default": true,
+          "description": ""
+        },
+        "toTypeScript.fixUnreachableCode": {
+          "type": "boolean",
+          "default": true,
+          "description": ""
+        },
+        "toTypeScript.fixUnusedLabel": {
+          "type": "boolean",
+          "default": true,
+          "description": ""
+        },
+        "toTypeScript.requireInTs": {
+          "type": "boolean",
+          "default": true,
+          "description": ""
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^10.12.21",
+    "chai": "^4.2.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1",
+    "vscode": "^1.1.28"
+  },
+  "dependencies": {
+    "decaffeinate": "^5.1.12",
+    "ts-morph": "^2.1.0"
+  }
+}
