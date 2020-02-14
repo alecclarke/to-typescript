@@ -19,8 +19,9 @@ export function normalizeTextFormat(text: string): string {
   return format(
     text,
     {
+      endOfLine: "lf",
       tabWidth: 2,
-      parser: "babel",
+      parser: "typescript",
     }
   )
 }
