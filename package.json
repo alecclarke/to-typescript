@@ -91,20 +91,23 @@
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.7",
+    "@types/chai": "^4.2.9",
+    "@types/glob": "^7.1.1",
     "@types/mocha": "^2.2.42",
-    "@types/node": "^10.12.21",
+    "@types/node": "^10.17.15",
+    "@types/prettier": "^1.19.0",
+    "@types/vscode": "^1.33.0",
     "chai": "^4.2.0",
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.1",
-    "vscode": "^1.1.28"
+    "mocha": "^7.0.1",
+    "prettier": "1.19.1",
+    "typescript": "^3.7.5",
+    "vscode-test": "^1.3.0"
   },
   "dependencies": {
-    "decaffeinate": "^5.1.12",
-    "ts-morph": "^2.1.0"
+    "decaffeinate": "^6.0.9",
+    "ts-morph": "^6.0.2"
   }
 }
