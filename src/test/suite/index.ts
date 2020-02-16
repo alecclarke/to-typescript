@@ -5,7 +5,8 @@ import * as glob from 'glob';
 export function run(): Promise<void> {
   // Create the mocha test
   const mocha = new Mocha({
-    ui: 'bdd'
+    timeout: 6000,
+    ui: 'bdd',
   });
   mocha.useColors(true);
 
