@@ -96,7 +96,7 @@
   "devDependencies": {
     "@types/chai": "^4.2.10",
     "@types/glob": "^7.1.1",
-    "@types/mocha": "^2.2.42",
+    "@types/mocha": "^7.0.2",
     "@types/node": "^13.9.0",
     "@types/prettier": "^1.19.0",
     "@types/vscode": "^1.33.0",
