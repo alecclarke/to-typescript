@@ -98,7 +98,7 @@
     "@types/glob": "^7.1.1",
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.11.1",
-    "@types/prettier": "^1.19.0",
+    "@types/prettier": "^2.0.0",
     "@types/vscode": "^1.44.0",
     "chai": "^4.2.0",
     "mocha": "^7.1.1",
