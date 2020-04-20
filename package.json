@@ -99,7 +99,7 @@
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.13.0",
     "@types/prettier": "^1.19.0",
-    "@types/vscode": "^1.44.0",
+    "@types/vscode": "^1.33.0",
     "chai": "^4.2.0",
     "mocha": "^7.1.1",
     "prettier": "1.19.1",
