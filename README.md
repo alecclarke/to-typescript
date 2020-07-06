@@ -24,6 +24,7 @@ toTypeScript provides the following configurations representing TypeScript [Quic
 | `toTypeScript.addMissingMember` | Declare missing class members - default: `true`|
 | `toTypeScript.forgottenThisPropertyAccess` | Add `this.` to unresolved variables - default: `true`  |
 | `toTypeScript.fixAwaitInSyncFunction` | Add `async` modifier to containing functions using `await` - default: `true`  |
+| `toTypeScript.fixExpectedComma` | Replace `;` to `,` within a list. - default: `true`  |
 | `toTypeScript.requireInTs` | Convert `require` to `import` - default: `true`  |
 | `toTypeScript.fixUnreachableCode` | Remove unreachable code - default: `true`  |
 | `toTypeScript.fixUnusedLabel` | Remove unused labels - default: `true`  |

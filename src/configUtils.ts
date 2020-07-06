@@ -9,6 +9,7 @@ const tsFixIds = [
   "fixUnreachableCode",
   "fixUnusedLabel",
   "fixAwaitInSyncFunction",
+  "fixExpectedComma",
   "requireInTs",
 ];
 

@@ -11,6 +11,7 @@ describe("buildTSFixIds", function () {
       "fixUnreachableCode",
       "fixUnusedLabel",
       "fixAwaitInSyncFunction",
+      "fixExpectedComma",
       "requireInTs",
     ];
 
