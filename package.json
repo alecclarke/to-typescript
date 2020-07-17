@@ -4,7 +4,7 @@
   "description": "Converts JavaScript and CoffeeScript to TypeScript",
   "author": "Alec Clarke",
   "publisher": "alecclarkedev",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.47.0"

@@ -32,14 +32,23 @@ toTypeScript provides the following configurations representing TypeScript [Quic
 
 ## Release Notes
 
+### 0.2.0
+
+- Update dependencies
+
+- Add the "Fix Expected Comma" codefix to list of refactors
+
+- Bump vscode extension compatibility version to `^1.47.0`
+
+
 ### 0.1.2
 
-Update dependencies.
+- Update dependencies.
 
 ### 0.1.1
 
-Update dependencies.
+- Update dependencies.
 
 ### 0.1.0
 
-Initial release.
+- Initial release.
