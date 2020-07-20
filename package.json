@@ -108,7 +108,7 @@
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
     "prettier": "1.19.1",
-    "typescript": "^3.9.6",
+    "typescript": "^3.9.7",
     "vscode-test": "^1.4.0"
   },
   "dependencies": {
