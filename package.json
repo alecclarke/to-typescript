@@ -104,7 +104,7 @@
     "@types/mocha": "^8.0.1",
     "@types/node": "^13.13.0",
     "@types/prettier": "^2.0.1",
-    "@types/vscode": "^1.47.0",
+    "@types/vscode": "^1.48.0",
     "chai": "^4.2.0",
     "mocha": "^8.1.1",
     "prettier": "1.19.1",
