@@ -113,6 +113,6 @@
   },
   "dependencies": {
     "decaffeinate": "^6.1.3",
-    "ts-morph": "^8.1.0"
+    "ts-morph": "^8.1.1"
   }
 }
