@@ -13,6 +13,7 @@ describe("addMissingMember", function () {
   });
 
   it("applies addMissingMember code fix to converted file", async function() {
+    this.timeout(10000)
     await openEditorForTestFile(jsFileName);
     await commands.executeCommand("extension.toTypeScript");
     const currentEditor = window.activeTextEditor as TextEditor;
