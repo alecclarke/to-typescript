@@ -32,6 +32,10 @@ toTypeScript provides the following configurations representing TypeScript [Quic
 
 ## Release Notes
 
+### 0.2.1
+
+- Update dependencies.
+
 ### 0.2.0
 
 - Update dependencies
