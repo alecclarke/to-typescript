@@ -88,6 +88,86 @@
           "type": "boolean",
           "default": true,
           "description": ""
+        },
+        "toTypeScript.coffeescript.useCS2": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.literate": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.disableSuggestionComment": {
+          "type": ["boolean", "null"],
+          "default": true,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.noArrayIncludes": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.useJSModules": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.looseJSModules": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.safeImportFunctionIdentifiers": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.preferLet": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.loose": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.looseDefaultParams": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.looseForExpressions": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.looseForOf": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.looseIncludes": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.looseComparisonNegation": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.disallowInvalidConstructors": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
+        },
+        "toTypeScript.coffeescript.optionalChaining": {
+          "type": ["boolean", "null"],
+          "default": null,
+          "description": ""
         }
       }
     }
