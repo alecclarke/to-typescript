@@ -1,6 +1,7 @@
 import { convert } from 'decaffeinate';
 import { TextDocument } from 'vscode';
 import { TSAdapter } from './tsAdapterInterface';
+import { getCoffeescriptConfig } from '../configUtils';
 
 export class CoffeeScriptAdapter implements TSAdapter {
   private document: TextDocument;
@@ -11,7 +12,7 @@ export class CoffeeScriptAdapter implements TSAdapter {
 
   public getFileContent(): string {
     const coffeeScriptContent = this.document.getText();
-    const options = { disableSuggestionComment: true };
+    const options = getCoffeescriptConfig();
     return convert(coffeeScriptContent, options).code;
   }
 

@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { buildTSFixIds } from '../../configUtils';
+import { buildTSFixIds, getCoffeescriptConfig } from '../../configUtils';
 
 describe("buildTSFixIds", function () {
   it("returns the fixIds defined in the settings", function() {
@@ -16,5 +16,12 @@ describe("buildTSFixIds", function () {
     ];
 
     expect(defaultFixIds).to.eql(buildTSFixIds());
+  });
+});
+
+describe("getCoffeescriptConfig", function () {
+  it("returns the default coffeescript config", async function() {
+    const expected = {disableSuggestionComment: true};
+    expect(expected).to.eql(getCoffeescriptConfig());
   });
 });
