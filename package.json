@@ -192,7 +192,7 @@
     "vscode-test": "^1.4.1"
   },
   "dependencies": {
-    "decaffeinate": "^6.1.6",
+    "decaffeinate": "^6.1.9",
     "ts-morph": "^9.1.0"
   }
 }
