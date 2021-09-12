@@ -31,6 +31,10 @@ toTypeScript provides the following configurations representing TypeScript [Quic
 
 
 ## Release Notes
+
+### 0.3.0
+
+- Include all relevant `decaffeinate` config flags in extension settings (https://github.com/alecclarke/to-typescript/pull/255)
 ### 0.2.3
 
 - Update dependencies.

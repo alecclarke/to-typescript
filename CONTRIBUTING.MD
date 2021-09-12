@@ -6,19 +6,20 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## Pull Request Process
 
-1. Clone the repo
+1. Fork the repo
+2. Clone the repo
 ```
-$ git clone https://github.com/alecclarke/to-typescript.git
+$ git clone https://github.com/<your user name>/to-typescript.git
 ```
-2. Create a new branch for your intended change
+3. Create a new branch for your intended changes
 ```
 $ cd to-typescript
 $ git checkout -b my-new-branch
 ```
-3. Make your changes
-4. Test your changes
-5. Commit your changes
-5. Open a pull request for the change
+4. Make your changes
+5. Test your changes
+6. Commit your changes
+7. Open a pull request
 
 ## Commit messages
 
