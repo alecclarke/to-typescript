@@ -4,7 +4,7 @@
   "description": "Converts JavaScript and CoffeeScript to TypeScript",
   "author": "Alec Clarke",
   "publisher": "alecclarkedev",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.47.0"
@@ -90,82 +90,130 @@
           "description": ""
         },
         "toTypeScript.coffeescript.useCS2": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.literate": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.disableSuggestionComment": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": true,
           "description": ""
         },
         "toTypeScript.coffeescript.noArrayIncludes": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.useJSModules": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.looseJSModules": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.safeImportFunctionIdentifiers": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.preferLet": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.loose": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.looseDefaultParams": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.looseForExpressions": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.looseForOf": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.looseIncludes": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.looseComparisonNegation": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.disallowInvalidConstructors": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         },
         "toTypeScript.coffeescript.optionalChaining": {
-          "type": ["boolean", "null"],
+          "type": [
+            "boolean",
+            "null"
+          ],
           "default": null,
           "description": ""
         }
