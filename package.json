@@ -231,7 +231,7 @@
     "@types/glob": "^7.1.2",
     "@types/mocha": "^9.1.0",
     "@types/node": "^13.13.0",
-    "@types/prettier": "^2.0.1",
+    "@types/prettier": "^2.4.4",
     "@types/vscode": "^1.47.0",
     "chai": "^4.2.0",
     "mocha": "^9.2.0",
