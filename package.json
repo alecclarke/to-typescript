@@ -228,7 +228,7 @@
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
-    "@types/glob": "^7.1.2",
+    "@types/glob": "^8.0.0",
     "@types/mocha": "^9.1.0",
     "@types/node": "^13.13.0",
     "@types/prettier": "^2.0.1",
